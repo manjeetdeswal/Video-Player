@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/_15sdp"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_height="@dimen/_40sdp"
+
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:tint="@color/teal"
+            android:id="@+id/themeTeal"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:tint="@color/red"
+            android:id="@+id/themeRed"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:tint="@color/green"
+            android:id="@+id/themeGreen"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_height="match_parent"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="@dimen/_40sdp"
+
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:tint="@color/gray"
+            android:id="@+id/themeGrey"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:tint="@color/silver"
+            android:id="@+id/themeSilver"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:tint="@color/pink"
+            android:id="@+id/themePink"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_height="match_parent"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="@dimen/_40sdp"
+
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:tint="@color/yellow"
+            android:id="@+id/themeYellow"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:tint="@color/olive"
+            android:id="@+id/themeOlive"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:tint="@color/purple"
+            android:id="@+id/themePurple"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_height="match_parent"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="@dimen/_40sdp"
+
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:tint="@color/maroon"
+            android:id="@+id/themeMarron"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:tint="@color/aqua"
+            android:id="@+id/themeAqua"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:tint="@color/blue"
+            android:id="@+id/themeBlue"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_height="match_parent"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+<androidx.cardview.widget.CardView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginLeft="1.0dip"
+    android:layout_marginTop="2dp"
+    android:layout_marginRight="1.0dip"
+    android:layout_marginBottom="2dp"
+    android:clickable="false"
+    android:foreground="@color/transparent"
+    android:tag="CardView"
+    app:cardBackgroundColor="#ffffffff"
+    app:cardCornerRadius="5.0dip"
+    app:cardElevation="0.0dip"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="80dp"
+            android:id="@+id/fileItemVideoFrame"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="1.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/file_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:tag="listTitleText"
+                android:text="@android:string/unknownName"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:id="@+id/file_item_desc"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:tag="listSubTitleText"
+                android:text="@android:string/unknownName"
+                android:textColor="@color/white"
+                android:textSize="14.0sp" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="6.0dip"
+            android:padding="8.0dip"
+            android:scaleType="centerInside"
+            android:tag="listImageIcon"
+            app:srcCompat="@drawable/video_ic_more_24dp" />
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

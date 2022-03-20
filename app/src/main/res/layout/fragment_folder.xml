@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".ui.yb.ui.main.FolderFrag">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/refresh">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            tools:listitem="@layout/item_folder"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycleView"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Video Player Lite</string>
+    <string name="bannerFiles">ca-app-pub-6283712090627179/1438021477</string>
+    <string name="shortcut_videos">Video</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Video</string>
+    <string name="tab_text_2">Folders</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_share_this_video">Share this video</string>
+
+    <string name="video_orientation_video">Video orientation</string>
+    <string name="video_orientation_sensor">Auto-rotate</string>
+</resources>

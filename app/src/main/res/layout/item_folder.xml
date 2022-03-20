@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_4sdp">
+
+        <ImageView
+            android:id="@+id/folder_thumb"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:padding="@dimen/_19sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/video_folder"
+            app:tint="@color/white" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/folder_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:text="Title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:id="@+id/video_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_6sdp"
+                android:text="(1) Videos"
+                android:visibility="gone"
+                android:textColor="@color/Grey_50"
+                android:textSize="@dimen/_12sdp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/transprent_grey" />
+</LinearLayout>
