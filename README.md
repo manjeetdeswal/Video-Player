@@ -3,8 +3,8 @@ Video Player app
 
 Screenshots :-
 
-<img src="https://github.com/manjeetdeswal/Video-Player/blob/master/app/release/1.png" width=45% height=30%/>
-<img src="https://github.com/manjeetdeswal/Video-Player/blob/master/app/release/2.png" width=45% height=30%/>
+<img src="https://github.com/manjeetdeswal/Video-Player/blob/master/app/release/1.png" width=30% height=30%/>
+<img src="https://github.com/manjeetdeswal/Video-Player/blob/master/app/release/2.png" width=30% height=30%/>
 <img src="https://github.com/manjeetdeswal/Video-Player/blob/master/app/release/3.png" width=30% height=30%/>
 <img src="https://github.com/manjeetdeswal/Video-Player/blob/master/app/release/4.png" width=30% height=30%/>
 <img src="https://github.com/manjeetdeswal/Video-Player/blob/master/app/release/5.png" width=30% height=30%/>
