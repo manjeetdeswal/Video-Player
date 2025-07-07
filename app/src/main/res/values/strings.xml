@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Video Player Lite</string>
+
+    <string name="bannerFiles">ca-app-pub-7993956656856547/3569858858</string>
+
+
+    <string name="shortcut_videos">Video</string>
+    <string name="tab_text_1">Video</string>
+    <string name="tab_text_2">Folders</string>
+    <string name="str_share_this_video">Share this video</string>
+    <string name="channel_name">vid</string>
+    <string name="channel_description">music notification</string>
+    <string name="player_notification_channel_id">101</string>
+    <string name="enter_minutes">Enter Minutes</string>
+    <string name="full_height">FULL HEIGHT</string>
+    <string name="full_width">FULL WIDTH</string>
+    <string name="fit">FIT</string>
+    <string name="zoom">ZOOM</string>
+    <string name="full_screen">FULL SCREEN</string>
+    <string name="sort">Sort</string>
+    <string name="search">Search</string>
+    <string name="_00_00">00:00</string>
+    <string name="add_link">Paste Link</string>
+    <string name="play">Play Video</string>
+    <string name="repeat_video">Repeat Video</string>
+
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+        <item quantity="many">%d seconds</item>
+    </plurals>
+</resources>

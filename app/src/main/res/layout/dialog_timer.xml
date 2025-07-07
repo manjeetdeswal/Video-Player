@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:minWidth="400dp"
+    android:background="@color/black_transparent"
+    android:minHeight="250dp"
+    android:layout_height="250dp">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <EditText
+        android:layout_width="wrap_content"
+       android:hint="@string/enter_minutes"
+        android:minWidth="@dimen/_200sdp"
+        android:inputType="number"
+       android:layout_marginTop="@dimen/_50sdp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTimer"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:weightSum="10"
+        android:layout_margin="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:layout_weight="5"
+            android:id="@+id/btnCancel"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:layout_weight="5"
+            android:id="@+id/btnOk"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:text="ok"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

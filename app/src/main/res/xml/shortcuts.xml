@@ -1,0 +1,12 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="videos"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:shortcutShortLabel="@string/shortcut_videos">
+        <intent
+            android:action="com.mddstudio.player.action.SHORTCUT_VIDEOS"
+            android:targetPackage="com.manjeet_deswal.video_player_lite.ui"
+            android:targetClass="com.manjeet_deswal.video_player_lite.ui.VideoPlayerActivity" />
+    </shortcut>
+</shortcuts>

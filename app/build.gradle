@@ -1,0 +1,97 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+
+}
+
+
+android {
+    compileSdk 36
+    /*composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.1"
+    }*/
+    defaultConfig {
+        applicationId "com.manjeet_deswal.video_player_lite"
+        minSdk 21
+        targetSdk 36
+        versionCode 10
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+
+
+        jvmTarget = '1.8'
+    }
+    namespace 'com.manjeet_deswal.video_player_lite'
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+    // Coroutines
+    implementation 'com.google.android.gms:play-services-ads:22.3.0'
+
+
+    implementation 'androidx.media3:media3-exoplayer:1.1.1'
+    implementation 'androidx.media3:media3-exoplayer-dash:1.1.1'
+    implementation 'androidx.media3:media3-ui:1.1.1'
+
+   /* implementation "androidx.media3:media3-exoplayer-hls:1.1.1"
+    // For RTSP playback support with ExoPlayer
+    implementation "androidx.media3:media3-exoplayer-rtsp:1.1.1"
+
+    // Common functionality for media database components
+    implementation "androidx.media3:media3-database:1.1.1"
+    // Common functionality for media decoders
+    implementation "androidx.media3:media3-decoder:1.1.1"
+    // Common functionality for loading data
+    implementation "androidx.media3:media3-datasource:1.1.1"
+    // Common functionality used across multiple media libraries
+    implementation "androidx.media3:media3-common:1.1.1"
+
+    implementation "androidx.media3:media3-transformer:1.1.1"
+
+
+    For exposing and controlling media sessions
+
+
+    // For extracting data from media containers
+    implementation "androidx.media3:media3-extractor:1.1.1"
+
+    // For integrating with Cast
+    implementation "androidx.media3:media3-cast:1.1.1"*/
+    implementation "androidx.media3:media3-session:1.1.1"
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
+
+
+
+}

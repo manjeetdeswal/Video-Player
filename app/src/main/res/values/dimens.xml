@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="exo_error_message_height" tools:keep="@dimen/exo_error_message_height">40dp</dimen>
+    <dimen name="exo_error_message_margin_bottom" tools:keep="@dimen/exo_error_message_margin_bottom">
+        84dp
+    </dimen>
+    <dimen name="exo_error_message_text_size" tools:keep="@dimen/exo_error_message_text_size">20sp
+    </dimen>
+    <dimen name="exo_icon_size" tools:keep="@dimen/exo_icon_size">90dp</dimen>
+
+    <dimen name="exo_styled_progress_enabled_thumb_size" tools:keep="@dimen/exo_styled_progress_enabled_thumb_size">
+        12dp
+    </dimen>
+    <dimen name="exo_styled_progress_dragged_thumb_size" tools:keep="@dimen/exo_styled_progress_dragged_thumb_size">
+        18dp
+    </dimen>
+    <dimen name="exo_styled_progress_margin_bottom" tools:keep="@dimen/exo_styled_progress_margin_bottom">
+        51dp
+    </dimen>
+
+    <dimen name="_100sdp">100dp</dimen>
+    <dimen name="_10sdp">10dp</dimen>
+    <dimen name="_12sdp">12dp</dimen>
+    <dimen name="_14sdp">14dp</dimen>
+    <dimen name="_15sdp">15dp</dimen>
+    <dimen name="_18sdp">18dp</dimen>
+    <dimen name="_19sdp">19dp</dimen>
+    <dimen name="_1sdp">1dp</dimen>
+    <dimen name="_200sdp">200dp</dimen>
+    <dimen name="_20sdp">20dp</dimen>
+    <dimen name="_25sdp">25dp</dimen>
+    <dimen name="_2sdp">2dp</dimen>
+    <dimen name="_30sdp">30dp</dimen>
+    <dimen name="_3sdp">3dp</dimen>
+    <dimen name="_40sdp">40dp</dimen>
+    <dimen name="_45sdp">45dp</dimen>
+    <dimen name="_4sdp">4dp</dimen>
+    <dimen name="_50sdp">50dp</dimen>
+    <dimen name="_5sdp">5dp</dimen>
+    <dimen name="_60sdp">60dp</dimen>
+    <dimen name="_6sdp">6dp</dimen>
+    <dimen name="_70sdp">70dp</dimen>
+    <dimen name="_80sdp">80dp</dimen>
+    <dimen name="_8sdp">8dp</dimen>
+    <dimen name="_90sdp">90dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
