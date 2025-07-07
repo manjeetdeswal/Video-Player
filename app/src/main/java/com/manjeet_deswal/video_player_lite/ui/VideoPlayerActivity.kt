@@ -55,7 +55,6 @@ import com.manjeet_deswal.video_player_lite.databinding.ActivityVideoBinding
 import com.manjeet_deswal.video_player_lite.rec.IconAdapter
 import com.manjeet_deswal.video_player_lite.rec.VideoListAdapter
 import com.manjeet_deswal.video_player_lite.utils.BrightNessDialog
-import com.manjeet_deswal.video_player_lite.utils.NotAdapter
 import com.manjeet_deswal.video_player_lite.utils.PlayListDialog
 import com.manjeet_deswal.video_player_lite.utils.Volume_Dialog
 import com.manjeet_deswal.video_player_lite.utils.dpToPx
@@ -75,7 +74,7 @@ import androidx.media3.common.MediaMetadata
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
-import kotlin.math.truncate
+
 
 
 @androidx.annotation.OptIn(androidx.media3.common.util.UnstableApi::class)
@@ -83,9 +82,9 @@ class VideoPlayerActivity : AppCompatActivity(), GestureDetector.OnGestureListen
     AudioManager.OnAudioFocusChangeListener, ScaleGestureDetector.OnScaleGestureListener {
 
 
-    private lateinit var notificationAdapter: NotAdapter
 
-  //  private lateinit var mediaSession: androidx.media3.session.MediaSession
+
+
     val id: Long? = null
     var speed = 1.0f
 
@@ -371,7 +370,7 @@ class VideoPlayerActivity : AppCompatActivity(), GestureDetector.OnGestureListen
                 playerView = binding.playerView
                 playVideo()
                 doublePLayer()
-                subtitle()
+                ListSetup()
             }
         } catch (e: Exception) {
            // Toast.makeText(this, e.toString(), Toast.LENGTH_LONG).show()
@@ -737,6 +736,8 @@ class VideoPlayerActivity : AppCompatActivity(), GestureDetector.OnGestureListen
 
         player.release()
 
+
+        playerNotificationManager?.setPlayer(null)
     }
 
 
@@ -932,7 +933,7 @@ class VideoPlayerActivity : AppCompatActivity(), GestureDetector.OnGestureListen
 
 
     @SuppressLint("NotifyDataSetChanged")
-    fun subtitle() {
+    fun ListSetup() {
 
         speed = 1.0f
         parameterName = PlaybackParameters(speed)
@@ -958,31 +959,31 @@ class VideoPlayerActivity : AppCompatActivity(), GestureDetector.OnGestureListen
                     0 -> {
                         if (expand) {
                             iconModelList.clear()
+
                             iconModelList.add(Icon(R.drawable.ic_round_chevron_right_24, ""))
                             iconModelList.add(Icon(R.drawable.ic_baseline_access_time_24, "Timer"))
-                            iconModelList.add(Icon(R.drawable.ic_round_volume_up_24, "Vol"))
                             iconModelList.add(Icon(R.drawable.ic_speed_forward_24, "Speed"))
                             iconModelList.add(Icon(R.drawable.ic_round_volume_off_24, "Mute"))
-                            iconModelList.add(
-                                Icon(R.drawable.ic_round_screen_rotation_24, "Rotate")
-                            )
+                            iconModelList.add(Icon(R.drawable.ic_round_screen_rotation_24, "Rotate"))
+                            expand = false
                             adapter.notifyDataSetChanged()
 
-                            expand = false
+
 
                         } else {
-                            if (iconModelList.size == 5) {
-                                iconModelList.add(Icon(R.drawable.ic_round_nights_stay_24, "Night"))
-                                iconModelList.add(
-                                    Icon(
-                                        R.drawable.ic_round_equalizer_24, "Equalizer"
-                                    )
-                                )
+                            iconModelList.clear()
 
-                            }
-                            iconModelList[position] = Icon(R.drawable.ic_round_arrow_left_24, "")
-                            adapter.notifyDataSetChanged()
+                            iconModelList.add(Icon(R.drawable.ic_round_arrow_left_24, ""))
+                            iconModelList.add(Icon(R.drawable.ic_baseline_access_time_24, "Timer"))
+                            iconModelList.add(Icon(R.drawable.ic_speed_forward_24, "Speed"))
+                            iconModelList.add(Icon(R.drawable.ic_round_volume_off_24, "Mute"))
+                            iconModelList.add(Icon(R.drawable.ic_round_screen_rotation_24, "Rotate"))
+                            iconModelList.add(Icon(R.drawable.ic_round_nights_stay_24, "Night"))
+                            iconModelList.add(Icon(R.drawable.ic_round_equalizer_24, "Equalizer"))
+                           // iconModelList[position] = Icon(R.drawable.ic_round_arrow_left_24, "")
                             expand = true
+                            adapter.notifyDataSetChanged()
+
                         }
 
                     }
@@ -1052,6 +1053,9 @@ class VideoPlayerActivity : AppCompatActivity(), GestureDetector.OnGestureListen
                             arr, checkedItem
                         ) { _, p1 ->
                             when (p1) {
+
+
+
                                 0 -> {
                                     speed = 0.5f
                                     parameterName = PlaybackParameters(speed)
