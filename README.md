@@ -4,12 +4,12 @@ Video Player app
 Screenshots :-
 </br>
 <img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203424.png" width=30% height=30%/>
-<img src="https://github.com/manjeetdeswal/Video-Player/blob/main/doubletapplayerview/src/main/Screenshot_20250707-203429.png" width=30% height=30%/>
-<img src="https://github.com/manjeetdeswal/Video-Player/blob/main/doubletapplayerview/src/main/Screenshot_20250707-203435.png" width=30% height=30%/>
-<img src="https://github.com/manjeetdeswal/Video-Player/blob/main/doubletapplayerview/src/main/Screenshot_20250707-203517.png" width=30% height=30%/>
-<img src="https://github.com/manjeetdeswal/Video-Player/blob/main/doubletapplayerview/src/main/Screenshot_20250707-203532.png" width=30% height=50%/>
-<img src="https://github.com/manjeetdeswal/Video-Player/blob/main/doubletapplayerview/src/main/Screenshot_20250707-203540.png" width=30% height=50%/>
-<img src="https://github.com/manjeetdeswal/Video-Player/blob/main/doubletapplayerview/src/main/Screenshot_20250707-203540.png" width=30% height=50%/>
+<img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203429.png" width=30% height=30%/>
+<img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203435.png" width=30% height=30%/>
+<img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203517.png" width=30% height=30%/>
+<img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203532.png" width=30% height=50%/>
+<img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203540.png" width=30% height=50%/>
+<img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203517.png" width=30% height=50%/>
 
 </br>
  <b>Features👇 : </b>
