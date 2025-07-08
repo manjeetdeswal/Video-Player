@@ -9,6 +9,7 @@ Screenshots :-
 <img src="https://github.com/manjeetdeswal/Video-Player/blob/main/doubletapplayerview/src/main/Screenshot_20250707-203517.png" width=30% height=30%/>
 <img src="https://github.com/manjeetdeswal/Video-Player/blob/main/doubletapplayerview/src/main/Screenshot_20250707-203532.png" width=30% height=50%/>
 <img src="https://github.com/manjeetdeswal/Video-Player/blob/main/doubletapplayerview/src/main/Screenshot_20250707-203540.png" width=30% height=50%/>
+<img src="https://github.com/manjeetdeswal/Video-Player/blob/main/doubletapplayerview/src/main/Screenshot_20250707-203540.png" width=30% height=50%/>
 
 </br>
  <b>Features👇 : </b>
