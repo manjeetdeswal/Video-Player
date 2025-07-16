@@ -5,7 +5,7 @@ Screenshots :-
 </br>
 <img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/main/doubletapplayerview/src/main/Screenshot_20250707-203424.png" width=30% height=100%/>
 <img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203429.png" width=30% height=30%/>
-<img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203435.png" width=30% height=30%/>
+<img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203435.png" width=30% height=100%/>
 <img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203517.png" width=30% height=30%/>
 <img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203532.png" width=30% height=50%/>
 <img src="https://raw.githubusercontent.com/manjeetdeswal/Video-Player/refs/heads/main/doubletapplayerview/src/main/Screenshot_20250707-203540.png" width=30% height=50%/>
